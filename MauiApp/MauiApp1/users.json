@@ -1,0 +1,82 @@
+[
+  {
+    "Code": 1,
+    "FirstName": "John",
+    "LastName": "Doe",
+    "BirthDate": "1990-05-15",
+    "IsMember": true,
+    "Gender": "Male"
+  },
+  {
+    "Code": 2,
+    "FirstName": "Jane",
+    "LastName": "Smith",
+    "BirthDate": "1985-08-22",
+    "IsMember": false,
+    "Gender": "Female"
+  },
+  {
+    "Code": 3,
+    "FirstName": "Bob",
+    "LastName": "Johnson",
+    "BirthDate": "1982-03-10",
+    "IsMember": true,
+    "Gender": "Male"
+  },
+  {
+    "Code": 4,
+    "FirstName": "Alice",
+    "LastName": "Williams",
+    "BirthDate": "1995-07-02",
+    "IsMember": false,
+    "Gender": "Female"
+  },
+  {
+    "Code": 5,
+    "FirstName": "Charlie",
+    "LastName": "Brown",
+    "BirthDate": "1988-11-18",
+    "IsMember": true,
+    "Gender": "Male"
+  },
+  {
+    "Code": 6,
+    "FirstName": "Eva",
+    "LastName": "Davis",
+    "BirthDate": "1992-04-30",
+    "IsMember": false,
+    "Gender": "Female"
+  },
+  {
+    "Code": 7,
+    "FirstName": "David",
+    "LastName": "Clark",
+    "BirthDate": "1987-09-08",
+    "IsMember": true,
+    "Gender": "Male"
+  },
+  {
+    "Code": 8,
+    "FirstName": "Grace",
+    "LastName": "Taylor",
+    "BirthDate": "1998-01-25",
+    "IsMember": false,
+    "Gender": "Female"
+  },
+  {
+    "Code": 9,
+    "FirstName": "Frank",
+    "LastName": "Moore",
+    "BirthDate": "1984-06-12",
+    "IsMember": true,
+    "Gender": "Male"
+  },
+  {
+    "Code": 10,
+    "FirstName": "Helen",
+    "LastName": "Ward",
+    "BirthDate": "1993-12-05",
+    "IsMember": false,
+    "Gender": "Female"
+  }
+]

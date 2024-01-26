@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MauiApp1.UserControlPage">
+
+    <StackLayout VerticalOptions="CenterAndExpand">
+        <Button Text="See User Information" Clicked="OnSeeUserInfoClicked" />
+        <Button Text="See All Members List" Clicked="OnSeeAllMembersClicked" />
+        <Button Text="See Non Members List" Clicked="OnSeeNonMembersClicked" />
+        <Button Text="Back" Clicked="OnBackClicked" />
+    </StackLayout>
+
+</ContentPage>

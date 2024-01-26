@@ -1,0 +1,20 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MauiApp1.WelcomePage">
+
+    <StackLayout>
+        <Label x:Name="lblGreeting"
+               Text="Welcome to the User Control App"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="CenterAndExpand"/>
+        <Button Text="Add User" Clicked="OnAddUserClicked" />
+        <Button Text="Delete User" Clicked="OnDeleteUserClicked" />
+        <Button Text="User Control" Clicked="OnUserControlClicked" />
+    </StackLayout>
+</ContentPage>
+
+
+

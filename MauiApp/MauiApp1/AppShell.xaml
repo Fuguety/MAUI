@@ -1,0 +1,27 @@
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
+       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+       mc:Ignorable="d"
+       xmlns:local="clr-namespace:MauiApp1"
+       x:Class="MauiApp1.AppShell">
+
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <StackLayout BackgroundColor="#2196F3" Padding="20">
+                <Label Text="Header" TextColor="White" FontSize="20" />
+            </StackLayout>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    <FlyoutItem Title="Home" Icon="home.png">
+        <ShellContent ContentTemplate="{DataTemplate local:WelcomePage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="User List" Icon="users.png">
+        <ShellContent ContentTemplate="{DataTemplate local:UserListPage}" />
+    </FlyoutItem>
+</Shell>
+
+
+

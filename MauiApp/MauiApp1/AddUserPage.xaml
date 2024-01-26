@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MauiApp1.AddUserPage">
+
+    <StackLayout>
+        <Label Text="Add New User" 
+               HorizontalOptions="CenterAndExpand" 
+               VerticalOptions="CenterAndExpand"/>
+
+        <!-- User Input Fields -->
+        <Entry x:Name="entryFirstName" Placeholder="First Name" />
+        <Entry x:Name="entryLastName" Placeholder="Last Name" />
+
+        <!-- Birth Date -->
+        <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+            <Label Text="Birth Date" VerticalOptions="CenterAndExpand"/>
+            <DatePicker x:Name="datePickerBirthDate" />
+        </StackLayout>
+
+        <!-- Gender -->
+        <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+            <Label Text="Gender" VerticalOptions="CenterAndExpand"/>
+            <Picker x:Name="pickerGender">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Male</x:String>
+                        <x:String>Female</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+        </StackLayout>
+
+        <!-- Is Member -->
+        <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+            <Label Text="Is Member?" VerticalOptions="CenterAndExpand"/>
+            <Switch x:Name="switchIsMember" IsToggled="true" />
+        </StackLayout>
+
+        <!-- Spacing -->
+        <BoxView HeightRequest="20" Color="Transparent" />
+
+        <!-- Buttons -->
+        <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand" Spacing="10">
+            <Button Text="Add User" Clicked="OnAddUserClicked" />
+            <Button Text="Back" Clicked="OnHomeClicked" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
+
+
+
+
+
