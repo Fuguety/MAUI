@@ -58,7 +58,7 @@ The app consists of several key components:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/Fuguety/MauiApp.git
+   git clone https://github.com/Fuguety/MAUI.git
 2. Ensure you have the following prerequisites installed:
 
 - [Xamarin](https://dotnet.microsoft.com/en-us/apps/xamarin)
